@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "outDir": "build",
+    "module": "Node16",
+    "sourceMap": true,
+    "removeComments": true,
+    "strictNullChecks": true,
+    "allowUnreachableCode": false
+  },
+  "exclude": ["node_modules", "build"]
+}
