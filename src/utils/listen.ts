@@ -1,5 +1,4 @@
-import Console from "./console";
-
-export default function () {
-  Console.success(`Server Started at http://127.0.0.1:${process.env.PORT}`);
+function listen() {
+  console.log(`Server Started on port 4000`);
 }
+export default listen;

@@ -6,7 +6,9 @@
     "sourceMap": true,
     "removeComments": true,
     "strictNullChecks": true,
-    "allowUnreachableCode": false
+    "allowUnreachableCode": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   },
   "exclude": ["node_modules"]
 }
